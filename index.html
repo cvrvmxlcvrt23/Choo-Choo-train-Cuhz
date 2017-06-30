@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HOME | Train Scheduler</title>
+	<title>Choo Choo train Cuhz</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -12,7 +12,6 @@
 	<!-- Font Awesome CSS Icons (For cool glyphicons) -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-	<link rel="stylesheet" type="text/css" href="traintime.css">
 
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
@@ -20,14 +19,16 @@
 
 	<!-- Link to Moment.js should go here -->
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+
 </head>
-<body>
+<body style="background-color: grey">
 	<div class="container-fluid">
 		<div class="jumbotron text-center" style="background-image: url(http://hdlatestwallpaper.com/wp-content/uploads/2017/04/Twin-Peaks-San-Francisco-HD-Wallpaper.jpg" );">
-			<i class="fa fa-5x fa-train"></i>
-			<h1>Choo Choo train cuhz</h1>
-			<h2>Train time cuhz</h2>
-			<h3>Today is <span id="current-status"></span></h3>
+			<i class="fa fa-5x fa-train" style="color: orange"></i>
+			<h1 style="color: orange">Choo Choo train cuhz</h1>
+			<h2 style="color: orange">Train time cuhz</h2>
+			<h2 style="color: yellow">Today is <span id="current-status"></span></h2>
 		</div>
 	</div> 
 		</div>
@@ -36,7 +37,7 @@
 			<div class="container-fluid">
 				<!-- <div class="panel-group"> -->
 					<div class="panel panel-primary">
-						<div class="panel-heading" style="background-color: purple; color: white">Current Train Schedule (25 latest entries)
+						<div class="panel-heading" style="background-color: orange; color: white">Current Choo Choo Schedule Cuhz (25 latest entries)
 						<button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-refresh"></span> Refresh</button></div> 
 							<div class="panel-body">
 								<div class="table-responsive">
@@ -53,8 +54,8 @@
 										</thead>
 										<tbody id="new-train">
 											<!-- <tr> -->
-											<!-- <td>i.e. Red line</td>
-											<td>Broadway</td>
+											<!-- <td>i.e. orange line Cuhz</td>
+											<td>break way</td>
 											<td>15</td>
 											<td>16:45</td>
 											<td>12</td>
@@ -76,27 +77,27 @@
 			<!-- <div class="container"> -->
 			<div class="panel-group">
 				<div class="panel panel-primary">
-					<div class="panel-heading" style="background-color: purple; color: white">Add Train</div>
+					<div class="panel-heading" style="background-color: orange; color: white">Add Train Cuhz</div>
 					<form>
 						<div class="container-fluid">
 							<div class="form-group">
-								<label for="train-name">Train name</label>
-								<input type="text" class="form-control" id="train-name" placeholder="Red line">
+								<label for="train-name">Choo Choo name Cuhz</label>
+								<input type="text" class="form-control" id="train-name" placeholder="orange line Cuhz">
 							</div>
 							<div class="form-group">
-								<label for="destination">Destination</label>
-								<input type="text" class="form-control" id="destination" placeholder="Broadway">
+								<label for="destination">Destination Cuhz</label>
+								<input type="text" class="form-control" id="destination" placeholder="Creaker Way Cuhz">
 							</div>
 							<div class="form-group">
-								<label for="train-time">First train time (HH:mm, AM/PM)</label>
+								<label for="train-time">Train time Cuhz(HH:mm, AM/PM)</label>
 								<input type="time" class="form-control" id="train-time" placeholder="16:45">
 							</div>
 							<div class="form-group">
 								<label for="frequency">
-								Frequency (mins)</label>
+								Frequency Cuhz ( !n m!Nut3$)</label>
 								<input type="text" class="form-control" id="frequency" placeholder="15">
 							</div>
-							<button class="btn btn-default" style="background-color: purple; color: white" id="add-train" type="submit">Submit</button>
+							<button class="btn btn-default" style="background-color: orange; color: white" id="add-train" type="submit">Submit</button>
 							<br><br>
 						</div>
 					</form>
@@ -105,6 +106,6 @@
 			<!-- </div> -->
 		<div>
 
-	<script src="assets/javascript/traintime.js"></script>
+	<script src="traintime.js"></script>
 </body>
 </html>
